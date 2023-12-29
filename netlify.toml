@@ -1,5 +1,5 @@
 [build]
-  publish = ""
+  publish = "src"
   command = "yarn build"
 [build.environment]
   NODE_VERSION = "14"
