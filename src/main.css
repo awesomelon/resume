@@ -255,7 +255,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  margin: 4rem 0 2rem;
+  margin: 5rem 0 2rem;
 }
 
 h3,
@@ -309,7 +309,8 @@ ul > li:before {
 .big-paragraph {
   font-size: 2rem;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 400;
+  color: #444;
 }
 
 @media screen and (max-width: 960px) {
@@ -382,18 +383,18 @@ ul > li:before {
   display: flex;
 }
 .profile {
-  width: 10rem;
-  height: 10rem;
+  width: 16rem;
+  height: 16rem;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  border-radius: 50%;
 }
 .profile-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 1rem;
-  padding-left: 2.5rem;
+  padding-left: 4rem;
 }
 .profile-info-block {
   display: flex;
@@ -420,7 +421,7 @@ ul > li:before {
     flex-direction: column;
   }
   .profile {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
   }
   .profile-info {
     padding-left: 0;
@@ -485,5 +486,3 @@ ul > li:before {
   background-position: center;
   border-radius: 1.5rem;
 }
-
-/*# sourceMappingURL=/resume/main.32ee5ef9.css.map */
